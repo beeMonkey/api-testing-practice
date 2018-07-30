@@ -38,6 +38,7 @@ public class RestAssuredExercises5Test {
 		when().
 				get("/xml/speedrecords").
 		then().
+				assertThat().
 				body("speedRecords.car[2].year",is("1955"));
 	}
 	
@@ -56,6 +57,7 @@ public class RestAssuredExercises5Test {
 		when().
 				get("/xml/speedrecords").
 		then().
+				assertThat().
 				body("speedRecords.car[3].@make",equalTo("Aston Martin"));
 	}
 	
@@ -74,6 +76,7 @@ public class RestAssuredExercises5Test {
 		when().
 				get("/xml/speedrecords").
 		then().
+				assertThat().
 				body("speedRecords.car.findAll{it.@country=='UK'}.size()",equalTo(3));
 		//cars.car.findAll{it.country=='Japan'}.size()
 	}
@@ -92,8 +95,9 @@ public class RestAssuredExercises5Test {
 			spec(requestSpec).
 		when().
 				get("/xml/speedrecords").
-		then()
-				.body("speedRecords.car.findAll{it.@country=='Italy'||it.@country=='Germany'}.size()",equalTo(4));
+		then().
+		assertThat().
+				body("speedRecords.car.findAll{it.@country=='Italy'||it.@country=='Germany'}.size()",equalTo(4));
 				//.body("speedRecords.car[4].@country",isOneOf("Italy","Germany"));
 	}
 	
@@ -110,6 +114,9 @@ public class RestAssuredExercises5Test {
 		given().
 			spec(requestSpec).
 		when().
-		then();
+				get("/xml/speedrecords").
+		then().
+		assertThat().
+				body("speedRecords.car.@make.grep(~/.*Benz/).size()",is(2));
 	}
 }
