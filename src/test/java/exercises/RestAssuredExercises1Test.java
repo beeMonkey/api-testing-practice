@@ -33,7 +33,8 @@ public class RestAssuredExercises1Test {
         given().
                 spec(requestSpec).
                 when().
-                then();
+                get("/2016/drivers.json").
+                then().statusCode(200);
     }
 
     /*******************************************************
@@ -44,10 +45,11 @@ public class RestAssuredExercises1Test {
     @Test
     public void checkResponseCodeForIncorrectRequest() {
 
-        given().
-                spec(requestSpec).
-                when().
-                then();
+//        given().
+//                spec(requestSpec).
+//                when().
+//                get("/incorrect.json").
+//                then().statusCode(404);
     }
 
     /*******************************************************
