@@ -4,8 +4,14 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 
 
 public class RestAssuredExercises2Test {
@@ -30,6 +36,11 @@ public class RestAssuredExercises2Test {
 	 ******************************************************/
 
 	//todo
+	static Stream<Arguments> monzaDataProvider() {
+		return Stream.of(
+				Arguments.of("monza", "Italy")
+		);
+	}
 
 	/*******************************************************
 	 * Use junit-jupiter-params for @ParameterizedTest that specifies for all races
@@ -37,7 +48,14 @@ public class RestAssuredExercises2Test {
 	 * pit stops Max Verstappen made
 	 * (race 1 = 1 pitstop, 2 = 3, 3 = 2, 4 = 2)
 	 ******************************************************/
-
+	static Stream<Arguments> raceNumberAndResultDataProvider(){
+		return Stream.of(
+				Arguments.of("1",1),
+				Arguments.of("2",3),
+				Arguments.of("3",2),
+				Arguments.of("4",2)
+		);
+	}
 	//todo
 
 	/*******************************************************
@@ -45,14 +63,18 @@ public class RestAssuredExercises2Test {
 	 * is /circuits/monza.json)
 	 * and check the country this circuit can be found in
 	 ******************************************************/
-	
-	@Test
-	public void checkCountryForCircuit() {
+	@ParameterizedTest
+	@MethodSource("monzaDataProvider")
+	public void checkCountryForCircuit(String localityName,String country) {
 		
 		given().
+				pathParam("driver",localityName).
 			spec(requestSpec).
 		when().
-		then();
+		get( "/circuits/{driver}.json").
+		then().
+		assertThat().
+		body("MRData.CircuitTable.Circuits[0].Location.country",is(country));
 	}
 	
 	/*******************************************************
@@ -61,13 +83,17 @@ public class RestAssuredExercises2Test {
 	 * /2015/1/drivers/max_verstappen/pitstops.json)
 	 * and verify the number of pit stops made
 	 ******************************************************/
-	
-	@Test
-	public void checkNumberOfPitstopsForMaxVerstappenIn2015() {
+
+	@ParameterizedTest
+	@MethodSource("raceNumberAndResultDataProvider")
+	public void checkNumberOfPitstopsForMaxVerstappenIn2015(String raceNumber,Integer result) {
 		
 		given().
+				pathParam("round",raceNumber).
 			spec(requestSpec).
 		when().
-		then();
+				get("/2015/{round}/drivers/max_verstappen/pitstops.json").
+		then().
+				body("MRData.RaceTable.Races[0].PitStops.size()",is(result));
 	}
 }
