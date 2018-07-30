@@ -88,11 +88,11 @@ public class RestAssuredExercises4Test {
 
     @Test
     public void checkResponseTimeFor2014CircuitList() {
-//        given().
-//                spec(requestSpec).
-//                when().
-//                get("/2014/circuits.json").
-//                then().
-//                time(lessThan(100L), TimeUnit.MILLISECONDS);
+        given().
+                spec(requestSpec).
+                when().
+                get("/2014/circuits.json").
+                then().
+                time(lessThan(100L), TimeUnit.MILLISECONDS);
     }
 }
