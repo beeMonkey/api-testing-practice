@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71dbf796-ab47-4b8c-940d-e1e5304f188e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -60,8 +61,8 @@
       <file leaf-file-name="RestAssuredExercises5Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="87" column="73" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="73" />
+            <state relative-caret-position="228">
+              <caret line="69" column="59" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -69,7 +70,7 @@
       <file leaf-file-name="speedrecords.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/__files/speedrecords.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="-132">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
@@ -78,8 +79,8 @@
       <file leaf-file-name="RestAssuredExamplesXml.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExamplesXml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1329">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="387">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -588,7 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredExercises5Test.checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany">
+  <component name="RunManager" selected="JUnit.RestAssuredExercises5Test.checkThreeRecordsHaveBeenSetByCarsFromTheUK">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -754,8 +755,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestAssuredExercises5Test.checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany" />
         <item itemvalue="JUnit.RestAssuredExercises5Test.checkThreeRecordsHaveBeenSetByCarsFromTheUK" />
+        <item itemvalue="JUnit.RestAssuredExercises5Test.checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany" />
         <item itemvalue="JUnit.RestAssuredExercises5Test.checkFourthSpeedRecordWasSetbyAnAstonMartin" />
         <item itemvalue="JUnit.RestAssuredExercises5Test.checkThirdSpeedRecordWasSetIn1955" />
         <item itemvalue="JUnit.RestAssuredExercises4Test.checkResponseTimeFor2014CircuitList" />
@@ -776,12 +777,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestAssuredExercises4Test_checkNumberOfPayments - 2018.07.30 at 14h 35m 13s.xml">
-      <configuration name="RestAssuredExercises4Test.checkNumberOfPayments" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises4Test_checkNumberOfPayments - 2018.07.30 at 14h 39m 52s.xml">
-      <configuration name="RestAssuredExercises4Test.checkNumberOfPayments" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestAssuredExercises4Test_checkResponseTimeFor2014CircuitList - 2018.07.30 at 14h 44m 19s.xml">
       <configuration name="RestAssuredExercises4Test.checkResponseTimeFor2014CircuitList" configurationId="JUnit" />
     </history-entry>
@@ -806,9 +801,15 @@
     <history-entry file="RestAssuredExercises5Test_checkThreeRecordsHaveBeenSetByCarsFromTheUK - 2018.07.30 at 15h 12m 10s.xml">
       <configuration name="RestAssuredExercises5Test.checkThreeRecordsHaveBeenSetByCarsFromTheUK" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestAssuredExercises5Test_checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany - 2018.07.30 at 15h 22m 08s.xml">
+      <configuration name="RestAssuredExercises5Test.checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises5Test_checkThreeRecordsHaveBeenSetByCarsFromTheUK - 2018.07.30 at 15h 26m 40s.xml">
+      <configuration name="RestAssuredExercises5Test.checkThreeRecordsHaveBeenSetByCarsFromTheUK" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -994,22 +995,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/__files/speedrecords.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="-132">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExamplesXml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1329">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="387">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises5Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="87" column="73" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="73" />
+        <state relative-caret-position="228">
+          <caret line="69" column="59" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="59" />
         </state>
       </provider>
     </entry>

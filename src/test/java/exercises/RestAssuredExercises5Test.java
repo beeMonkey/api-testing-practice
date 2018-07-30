@@ -74,7 +74,8 @@ public class RestAssuredExercises5Test {
 		when().
 				get("/xml/speedrecords").
 		then().
-				body("speedRecords.car[3].@country",equalTo("UK"));
+				body("speedRecords.car.findAll{it.@country=='UK'}.size()",equalTo(3));
+		//cars.car.findAll{it.country=='Japan'}.size()
 	}
 	
 	/*******************************************************
