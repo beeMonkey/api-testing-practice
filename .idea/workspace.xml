@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71dbf796-ab47-4b8c-940d-e1e5304f188e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises6Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises6Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,26 +47,11 @@
       <file leaf-file-name="RestAssuredExercises6Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises6Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestAssuredExercises1Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises1Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="112" column="45" lean-forward="true" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestAssuredExercises2Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises2Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="206">
+              <caret line="58" column="70" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +59,7 @@
       <file leaf-file-name="RestAssuredExamples.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
+            <state relative-caret-position="-124">
               <caret line="236" column="26" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="26" />
             </state>
           </provider>
@@ -611,7 +595,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200">
+  <component name="RunManager" selected="JUnit.RestAssuredExercises6Test.checkThatRetrievingAnAlfaRomeoGiuliaShowsModelYear2016">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -777,8 +761,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200" />
         <item itemvalue="JUnit.RestAssuredExercises6Test.checkThatRetrievingAnAlfaRomeoGiuliaShowsModelYear2016" />
+        <item itemvalue="JUnit.RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200" />
         <item itemvalue="JUnit.RestAssuredExercises5Test.checkTwoRecordsHaveBeenSetByCarsWhoseMakeEndOnBenz" />
         <item itemvalue="JUnit.RestAssuredExercises5Test.checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany" />
         <item itemvalue="JUnit.RestAssuredExercises5Test.checkThreeRecordsHaveBeenSetByCarsFromTheUK" />
@@ -799,18 +783,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestAssuredExercises5Test_checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany - 2018.07.30 at 15h 38m 35s.xml">
-      <configuration name="RestAssuredExercises5Test.checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises5Test_checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany - 2018.07.30 at 20h 28m 41s.xml">
-      <configuration name="RestAssuredExercises5Test.checkFourRecordsHaveBeenSetByCarsFromEitherItalyOrGermany" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises5Test_checkTwoRecordsHaveBeenSetByCarsWhoseMakeEndOnBenz - 2018.07.30 at 20h 37m 57s.xml">
-      <configuration name="RestAssuredExercises5Test.checkTwoRecordsHaveBeenSetByCarsWhoseMakeEndOnBenz" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestAssuredExercises5Test_checkTwoRecordsHaveBeenSetByCarsWhoseMakeEndOnBenz - 2018.07.30 at 20h 40m 34s.xml">
-      <configuration name="RestAssuredExercises5Test.checkTwoRecordsHaveBeenSetByCarsWhoseMakeEndOnBenz" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestAssuredExercises6Test_checkThatPostingA2012FordFocusReturnsHttp200 - 2018.07.30 at 20h 49m 57s.xml">
       <configuration name="RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200" configurationId="JUnit" />
     </history-entry>
@@ -827,6 +799,18 @@
       <configuration name="RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RestAssuredExercises6Test_checkThatPostingA2012FordFocusReturnsHttp200 - 2018.07.30 at 20h 54m 46s.xml">
+      <configuration name="RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises6Test_checkThatRetrievingAnAlfaRomeoGiuliaShowsModelYear2016 - 2018.07.30 at 21h 00m 50s.xml">
+      <configuration name="RestAssuredExercises6Test.checkThatRetrievingAnAlfaRomeoGiuliaShowsModelYear2016" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises6Test_checkThatPostingA2012FordFocusReturnsHttp200 - 2018.07.30 at 21h 02m 36s.xml">
+      <configuration name="RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises6Test_checkThatPostingA2012FordFocusReturnsHttp200 - 2018.07.30 at 21h 03m 02s.xml">
+      <configuration name="RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredExercises6Test_checkThatPostingA2012FordFocusReturnsHttp200 - 2018.07.30 at 21h 03m 48s.xml">
       <configuration name="RestAssuredExercises6Test.checkThatPostingA2012FordFocusReturnsHttp200" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -854,7 +838,7 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27857935" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33851278" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32852387" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
@@ -1018,20 +1002,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/mappings/CarsXml.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/mappings/CarDeserialization.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/mappings/CarSerialization.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="236" column="26" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1049,10 +1023,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="236" column="26" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/mappings/CarDeserialization.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/exercises/RestAssuredExercises6Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="206">
+          <caret line="58" column="70" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

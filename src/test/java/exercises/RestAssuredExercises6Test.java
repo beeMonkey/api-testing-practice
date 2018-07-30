@@ -62,7 +62,7 @@ public class RestAssuredExercises6Test {
 		given().
 			spec(requestSpec).
 			when().
-				get("/cars/getcar/alfaromeogiulia").
+				get("/car/getcar/alfaromeogiulia").
 				as(Car.class);
 
 		// Put your assert here
